@@ -1,3 +1,3 @@
-# Asakira666.github.lo
+# asakira666.github.lo
 тест
 это просто тест
