@@ -1,112 +1,84 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <title>Wooder</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/a.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <!--==========-ШАПКА==========-->
-    <header class="menu">
-      <div class="menu">
-        <!--<div class="text-menu">menu</div>-->
-      </div>
-      <div class="blok">
-        <img
-          src="img/logoo.png"
-          alt="logo"
-          class="logo"
-          width="212"
-          height="24"
-        />
-        <ul class="topnav" id="myTopnav">
-          <li class="li"><a href="#home" class="activee"> Home</a></li>
-          <li class="li"><a href="#products" class="activee"> products</a></li>
-          <li class="li"><a href="#about" class="activee"> About</a></li>
-          <li class="icon">
-            <a class="burger" href="javascript:void(0);" onclick="myFunction()"
-              >&#9776;</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="info">
-        <img
-          src="img/info44.png"
-          alt="info"
-          class="infoo"
-          width="23"
-          height="23"
-        />
-        <p
-          class="popup_text"
-          data-title="Это бесплатный макет сайта взятый из интернете для практики. Vadim Umanski."
-        ></p>
-      </div>
-    </header>
-    <!--Слайдер/Главная-->
-    <div id="home" class="conteiner_wooder">
-      <!--Абсолютное позицианирование элементов на главной странице/НАЧАЛО-->
-      <img
-        src="img/3-layersa.png"
-        alt="scroll"
-        class="scroll"
-        width="20"
-        height="128"
-      />
-      <p class="scroll_text">scroll</p>
-      <div class="w">w</div>
-      <div class="textAbsolute">Furniture & decor</div>
-      <!--Абсолютное позицианирование элементов на главной странице/КОНЕЦ-->
-      <h1 class="wooder">Wooder</h1>
-      <div class="slideshow-conteiner">
-        <div class="mySlides fade">
-          <img src="img/img5.png" style="width: 100%" alt="" />
-          <div class="text">01</div>
-        </div>
-        <div class="mySlides fade">
-          <img src="img/img2.png" style="width: 100%" alt="" />
-          <div class="text">02</div>
-        </div>
-        <div class="mySlides fade">
-          <img src="img/img33.png" style="width: 100%" alt="" />
-          <div class="text">03</div>
-        </div>
-        <div class="mySlides fade">
-          <img src="img/img4.png" style="width: 100%" alt="" />
-          <div class="text">04</div>
-        </div>
-        <div class="mySlides fade">
-          <img src="img/img.png" style="width: 100%" alt="" />
-          <div class="text">05</div>
-        </div>
-        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094</a>-->
-        <a class="next" onclick="plusSlides(1)">
-          learn more
-          <!--&#10095--></a
-        >
-      </div>
-      <br />
-      <div>
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Wooder</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/a.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--==========-ШАПКА==========-->
+  <header class="menu">
+    <div class="menu">
+      <!--<div class="text-menu">menu</div>-->
     </div>
-    <!--==========-ГЛАВНАЯ СТРАНИЦА СО СЛАЙДЕРАМ==========-->
-    <!--<section class="home">
+    <div class="blok">
+      <img src="img/logoo.png" alt="logo" class="logo" width="212" height="24" />
+      <ul class="topnav" id="myTopnav">
+        <li class="li"><a href="#home" class="activee"> Home</a></li>
+        <li class="li"><a href="#products" class="activee"> products</a></li>
+        <li class="li"><a href="#about" class="activee"> About</a></li>
+        <li class="icon">
+          <a class="burger" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+        </li>
+      </ul>
+    </div>
+    <div class="info">
+      <img src="img/info44.png" alt="info" class="infoo" width="23" height="23" />
+      <p class="popup_text" data-title="Это бесплатный макет сайта взятый из интернете для практики. Vadim Umanski.">
+      </p>
+    </div>
+  </header>
+  <!--Слайдер/Главная-->
+  <div id="home" class="conteiner_wooder">
+    <!--Абсолютное позицианирование элементов на главной странице/НАЧАЛО-->
+    <img src="img/3-layersa.png" alt="scroll" class="scroll" width="20" height="128" />
+    <p class="scroll_text">scroll</p>
+    <div class="w">w</div>
+    <div class="textAbsolute">Furniture & decor</div>
+    <!--Абсолютное позицианирование элементов на главной странице/КОНЕЦ-->
+    <h1 class="wooder">Wooder</h1>
+    <div class="slideshow-conteiner">
+      <div class="mySlides fade">
+        <img src="img/img5.png" style="width: 100%" alt="" />
+        <div class="text">01</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="img/img2.png" style="width: 100%" alt="" />
+        <div class="text">02</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="img/img33.png" style="width: 100%" alt="" />
+        <div class="text">03</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="img/img4.png" style="width: 100%" alt="" />
+        <div class="text">04</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="img/img.png" style="width: 100%" alt="" />
+        <div class="text">05</div>
+      </div>
+      <!-- <a class="prev" onclick="plusSlides(-1)">&#10094</a>-->
+      <a class="next" onclick="plusSlides(1)">
+        learn more
+        <!--&#10095--></a>
+    </div>
+    <br />
+    <div>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+  </div>
+  <!--==========-ГЛАВНАЯ СТРАНИЦА СО СЛАЙДЕРАМ==========-->
+  <!--<section class="home">
         <div class="background-image">
             <h1 class="wooder">Wooder</h1>
             <div class="button-flex">
@@ -114,229 +86,167 @@
             </div>
         </div>
     </section>-->
-    <!--==========-ВТОРОЙ БЛОК==========-->
-    <section id="products" class="furniture">
-      <!--Абсолютное позицианирование элементов на втором блоке/НАЧАЛО-->
-      <div class="f">f</div>
-      <div class="line_absolut"></div>
-      <div class="furniture_absolut">Furniture</div>
-      <div class="d">d</div>
-      <div class="decor_absolut">decor</div>
-      <!--Абсолютное позицианирование элементов на втором блоке/КОНЕЦ-->
-      <div class="wrapper">
-        <div class="first-under-the-block">
-          <div class="border-furniture-1"></div>
-          <div class="border-furniture-2"></div>
-          <div class="one">01<span class="color">.</span></div>
-          <div class="border-furniture-3"></div>
-        </div>
-        <div class="second-under-the-block">
-          <h2>Furniture</h2>
-          <p class="text-second-1">
-            Wooder utilizes materials otherwise left behind, rendered useless in
-            their original intent. By creating new pieces made of reclaimed
-            barnwood
-          </p>
-          <p class="text-second-2">
-            Learn more<img
-              src="img/2-layers.png"
-              width="35"
-              height="7"
-              alt="стрелка"
-              class="arrow"
-            />
-          </p>
+  <!--==========-ВТОРОЙ БЛОК==========-->
+  <section id="products" class="furniture">
+    <!--Абсолютное позицианирование элементов на втором блоке/НАЧАЛО-->
+    <div class="f">f</div>
+    <div class="line_absolut"></div>
+    <div class="furniture_absolut">Furniture</div>
+    <div class="d">d</div>
+    <div class="decor_absolut">decor</div>
+    <!--Абсолютное позицианирование элементов на втором блоке/КОНЕЦ-->
+    <div class="wrapper">
+      <div class="first-under-the-block">
+        <div class="border-furniture-1"></div>
+        <div class="border-furniture-2"></div>
+        <div class="one">01<span class="color">.</span></div>
+        <div class="border-furniture-3"></div>
+      </div>
+      <div class="second-under-the-block">
+        <h2>Furniture</h2>
+        <p class="text-second-1">
+          Wooder utilizes materials otherwise left behind, rendered useless in
+          their original intent. By creating new pieces made of reclaimed
+          barnwood
+        </p>
+        <p class="text-second-2">
+          Learn more<img src="img/2-layers.png" width="35" height="7" alt="стрелка" class="arrow" />
+        </p>
 
-          <div class="border-furniture-4"></div>
-        </div>
-        <img
-          src="img/upcycled-furniture-011.png"
-          width="516"
-          height="297"
-          alt="древесина"
-          class="furniture-img"
-        />
+        <div class="border-furniture-4"></div>
       </div>
-    </section>
-    <section class="decor">
-      <div class="wrapper-2">
-        <img
-          src="img/ea88ff354d9091613e83e79af7cc2a75.png"
-          width="516"
-          height="297"
-          alt="древесина"
-          class="decor-img"
-        />
-        <div class="decor-first-under-the-block">
-          <h3>Decor</h3>
-          <p class="text-decor-second-1">
-            We make all types of wooden decor as per design given by
-            Architect,Interior designer, contractor which is suitable your
-            premises
-          </p>
-          <p class="text-decor-second-2">
-            Learn more<img
-              src="img/2-layers.png"
-              width="35"
-              height="7"
-              alt="стрелка"
-              class="arrow-2"
-            />
-          </p>
+      <div class="artefct">
+        <p class="artefect-text">Wooder utilizes materials otherwise left behind, rendered useless in
+          their original intent. By creating new pieces made of reclaimed
+          barnwood</p>
+      </div>
+      <img src="img/upcycled-furniture-011.png" width="516" height="297" alt="древесина" class="furniture-img" />
+    </div>
+  </section>
+  <section class="decor">
+    <div class="wrapper-2">
+      <img src="img/ea88ff354d9091613e83e79af7cc2a75.png" width="516" height="297" alt="древесина" class="decor-img" />
+      <div class="decor-first-under-the-block">
+        <h3>Decor</h3>
+        <p class="text-decor-second-1">
+          We make all types of wooden decor as per design given by
+          Architect,Interior designer, contractor which is suitable your
+          premises
+        </p>
+        <p class="text-decor-second-2">
+          Learn more<img src="img/2-layers.png" width="35" height="7" alt="стрелка" class="arrow-2" />
+        </p>
 
-          <div class="border-decor-1"></div>
-        </div>
+        <div class="border-decor-1"></div>
       </div>
-      <div class="decor-second-under-the-block">
-        <div class="border-furniture-1-1"></div>
-        <div class="border-furniture-2-2"></div>
-        <div class="one-2">02<span class="color-2">.</span></div>
-        <div class="border-furniture-3-3"></div>
+    </div>
+    <div class="decor-second-under-the-block">
+      <div class="border-furniture-1-1"></div>
+      <div class="border-furniture-2-2"></div>
+      <div class="one-2">02<span class="color-2">.</span></div>
+      <div class="border-furniture-3-3"></div>
+    </div>
+  </section>
+  <section class="wooder-is-quality">
+    <div class="wrapper-3">
+      <h4>wooder – is quality</h4>
+      <div class="border-wooder-is-quality"></div>
+      <p class="text-wooder-is-quality">
+        We create unique design objects made of rare wood, specially under the
+        order.<br />
+        Look at the short video about our work.
+      </p>
+    </div>
+    <div class="video">
+      <div class="video-text-1">
+        <iframe width="707" height="530" src="https://www.youtube.com/embed/e8hvEPT7Hp0" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+          class="video_1"></iframe>
+        <div class="borderVideo_1"></div>
+        <div class="videoText_1">Innovative Design</div>
       </div>
-    </section>
-    <section class="wooder-is-quality">
-      <div class="wrapper-3">
-        <h4>wooder – is quality</h4>
-        <div class="border-wooder-is-quality"></div>
-        <p class="text-wooder-is-quality">
-          We create unique design objects made of rare wood, specially under the
-          order.<br />
-          Look at the short video about our work.
+      <div class="video-text-1">
+        <iframe width="707" height="530" src="https://www.youtube.com/embed/KPsLUpB0Mf4" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+          class="video_1"></iframe>
+        <div class="borderVideo_1"></div>
+        <div class="videoText_1">High-level Skills</div>
+      </div>
+      <div class="video-text-1">
+        <iframe muted autoplay loop width="707" height="530" src="https://www.youtube.com/embed/wOgtkjajBIU"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen class="video_1"></iframe>
+        <div class="borderVideo_1"></div>
+        <div class="videoText_1">Quality Products</div>
+      </div>
+    </div>
+  </section>
+  <!--==========ТРЕЙТИЙ БЛОК==========-->
+  <section class="complexity">
+    <!--Абсолютное позицианирование элементов на трейтем блоке/НАЧАЛО-->
+    <div class="v">v</div>
+    <div class="aboutustext">about us</div>
+    <!--Абсолютное позицианирование элементов на трейтем блоке/КОНЕЦ-->
+    <video src="Wood Cutting Using Jigsaw.mp4" autoplay muted loop></video>
+    <div class="mask"></div>
+    <div class="solid"></div>
+    <img src="img/2-layersa.png" class="plaнyer6" width="800px" height="800px" />
+    <div class="wrapper_3">
+      <div class="content">
+        <div class="line"></div>
+        <h5 class="text_h5">
+          we Do the design<br />
+          of any complexity
+        </h5>
+      </div>
+      <div class="content_2">
+        <div class="line_2"></div>
+        <p class="text_p">
+          This is a team of professionals that make the furniture and wood
+          décor high standard. Creating modern designs. Adhering to the global
+          quality standards. And we are doing work with love.
         </p>
       </div>
-      <div class="video">
-        <div class="video-text-1">
-          <iframe
-            width="707"
-            height="530"
-            src="https://www.youtube.com/embed/e8hvEPT7Hp0"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="video_1"
-          ></iframe>
-          <div class="borderVideo_1"></div>
-          <div class="videoText_1">Innovative Design</div>
-        </div>
-        <div class="video-text-1">
-          <iframe
-            width="707"
-            height="530"
-            src="https://www.youtube.com/embed/KPsLUpB0Mf4"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="video_1"
-          ></iframe>
-          <div class="borderVideo_1"></div>
-          <div class="videoText_1">High-level Skills</div>
-        </div>
-        <div class="video-text-1">
-          <iframe
-            muted
-            autoplay
-            loop
-            width="707"
-            height="530"
-            src="https://www.youtube.com/embed/wOgtkjajBIU"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="video_1"
-          ></iframe>
-          <div class="borderVideo_1"></div>
-          <div class="videoText_1">Quality Products</div>
-        </div>
+      <div class="button_flexx">
+        <button type="submit" class="button">watch video</button>
       </div>
-    </section>
-    <!--==========ТРЕЙТИЙ БЛОК==========-->
-    <section class="complexity">
-      <!--Абсолютное позицианирование элементов на трейтем блоке/НАЧАЛО-->
-      <div class="v">v</div>
-      <div class="aboutustext">about us</div>
-      <!--Абсолютное позицианирование элементов на трейтем блоке/КОНЕЦ-->
-      <video src="Wood Cutting Using Jigsaw.mp4" autoplay muted loop></video>
-      <div class="mask"></div>
-      <div class="solid"></div>
-      <img
-        src="img/2-layersa.png"
-        class="plaнyer6"
-        width="800px"
-        height="800px"
-      />
-      <div class="wrapper_3">
-        <div class="content">
-          <div class="line"></div>
-          <h5 class="text_h5">
-            we Do the design<br />
-            of any complexity
-          </h5>
-        </div>
-        <div class="content_2">
-          <div class="line_2"></div>
-          <p class="text_p">
-            This is a team of professionals that make the furniture and wood
-            décor high standard. Creating modern designs. Adhering to the global
-            quality standards. And we are doing work with love.
-          </p>
-        </div>
-        <div class="button_flexx">
-          <button type="submit" class="button">watch video</button>
-        </div>
-      </div>
-    </section>
-    <!--==========ЧЕТВЕРТЫЙ БЛОК==========-->
-    <section id="about" class="about_us">
-      <!--Абсолютное позицианирование элементов на четветом блоке/НАЧАЛО-->
-      <div class="a">a</div>
-      <!--Абсолютное позицианирование элементов на четветом блоке/КОНЕЦ-->
-      <div class="wrapper-4">
-        <img
-          src="img/46ac2a29632469.55fc0c991daeb.png"
-          width="589"
-          height="401"
-          alt="древесина"
-          class="about_us-img"
-        />
-        <div class="about_us-first-under-the-block">
-          <h6>About us</h6>
-          <p class="text-about_us-second-1">
-            We are a team of professionals in the wood processing and the
-            creation of wooden furniture of the highest class
-          </p>
-          <p class="text_about_us">
-            Learn more<img
-              src="img/2-layers.png"
-              width="35"
-              height="7"
-              alt="стрелка"
-              class="arrow_about_us"
-            />
-          </p>
-
-          <div class="border_about_us-3"></div>
-        </div>
-        <div class="border_about_us">
-          <div class="border_about_us-1"></div>
-          <div class="border_about_us-2"></div>
-        </div>
-      </div>
-    </section>
-    <!--==========ФУТЕР==========-->
-    <footer>
-      <div class="footer_conteiner">
-        <img
-          src="img/logo.png"
-          alt="logo"
-          width="213"
-          height="27"
-          class="logo_footer"
-        />
-        <p class="text_footer">
-          Designed by <span class="footer_span">Vadim Umanski</span>
+    </div>
+  </section>
+  <!--==========ЧЕТВЕРТЫЙ БЛОК==========-->
+  <section id="about" class="about_us">
+    <!--Абсолютное позицианирование элементов на четветом блоке/НАЧАЛО-->
+    <div class="a">a</div>
+    <!--Абсолютное позицианирование элементов на четветом блоке/КОНЕЦ-->
+    <div class="wrapper-4">
+      <img src="img/46ac2a29632469.55fc0c991daeb.png" width="589" height="401" alt="древесина" class="about_us-img" />
+      <div class="about_us-first-under-the-block">
+        <h6>About us</h6>
+        <p class="text-about_us-second-1">
+          We are a team of professionals in the wood processing and the
+          creation of wooden furniture of the highest class
         </p>
+        <p class="text_about_us">
+          Learn more<img src="img/2-layers.png" width="35" height="7" alt="стрелка" class="arrow_about_us" />
+        </p>
+
+        <div class="border_about_us-3"></div>
       </div>
-    </footer>
-    <script type="text/javascript" src="js/script.js"></script>
-  </body>
+      <div class="border_about_us">
+        <div class="border_about_us-1"></div>
+        <div class="border_about_us-2"></div>
+      </div>
+    </div>
+  </section>
+  <!--==========ФУТЕР==========-->
+  <footer>
+    <div class="footer_conteiner">
+      <img src="img/logo.png" alt="logo" width="213" height="27" class="logo_footer" />
+      <p class="text_footer">
+        Designed by <span class="footer_span">Vadim Umanski</span>
+      </p>
+    </div>
+  </footer>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
 </html>
