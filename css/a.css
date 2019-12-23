@@ -83,10 +83,21 @@
     margin-right: 20%;
   }
 
-  div.furniture_absolut {
-    font-size: 64px;
-    margin-left: 63%;
-    margin-top: 18%;
+
+  .artefct {
+    margin-top: 125px;
+    margin-left: 280px;
+  }
+
+  p.artefect-text {
+    width: 95%;
+    height: 241px;
+    font-size: 18px;
+  }
+
+  .artefct-decor {
+    margin-top: 135px;
+    margin-left: 93px;
   }
 
   h2 {
@@ -132,9 +143,14 @@
   }
 
   img.decor-img {
-    width: 45%;
+    width: 42%;
     height: 38%;
     margin-left: 9%;
+  }
+
+  .artefct-decor {
+    margin-top: 135px;
+    margin-left: 93px;
   }
 
   div.decor_absolut {
@@ -312,6 +328,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     margin-left: 5%;
+    position: relative;
   }
 
   img.furniture-img {
@@ -322,6 +339,25 @@
     order: 1;
     margin-left: 15%;
     margin-top: -2%;
+  }
+
+  .artefct {
+    width: 75%;
+    height: 36.5%;
+    margin-top: -383px;
+    margin-left: 114px;
+  }
+
+  p.artefect-text {
+    width: 89%;
+    height: 336px;
+    font-size: 17px
+  }
+
+  div.furniture_absolut {
+    font-size: 64px;
+    margin-left: 63%;
+    margin-top: 18%;
   }
 
   div.furniture_absolut {
@@ -417,6 +453,13 @@
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
+  }
+
+  .artefct-decor {
+    margin-top: 150px;
+    margin-left: 24%;
+    width: 70%;
+    height: 53.5%;
   }
 
   div.decor_absolut {
@@ -622,12 +665,20 @@
 
   /* Футер */
 
+  div.footer_conteiner {
+    margin-top: 126px;
+  }
+
   p.text_footer {
     margin-left: 4%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  header.menu {
+    background-color: rgba(0, 0, 0, 0.17);
+  }
+
   ul.topnav li.li {
     display: none;
   }
@@ -638,10 +689,38 @@
   }
 
   ul.topnav {
-    display: block;
-    margin-top: 37px;
-    margin-left: -23%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: -39%;
     text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  li.li a {
+    color: #ffffffad;
+    background: #91949845;
+    border-radius: 5px;
+  }
+
+  img.logo {
+    width: 92px;
+    height: 10px;
+
+    margin-top: 17px;
+  }
+
+  a.burger {
+    top: 9px;
+    font-size: 24px;
+    left: 5%;
   }
 
   div.text-menu {
@@ -782,6 +861,21 @@
     margin-top: 0%;
   }
 
+
+  .artefct {
+    width: 75%;
+    height: 34.5%;
+    margin-top: -260px;
+    margin-left: 12%;
+  }
+
+  p.artefect-text {
+    width: 89%;
+    height: 130%;
+    font-size: 15px;
+  }
+
+
   div.furniture_absolut {
     font-size: 42px;
     margin-left: 48%;
@@ -875,6 +969,13 @@
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
+  }
+
+  .artefct-decor {
+    margin-top: 5.4%;
+    margin-left: 12%;
+    width: 75%;
+    height: 37%;
   }
 
   div.decor_absolut {
@@ -1099,6 +1200,7 @@
     margin-left: 4%;
     font-size: 11px;
   }
+
   img.logo_footer {
     width: 23%;
     height: 48%;
@@ -1106,6 +1208,10 @@
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
+  header.menu {
+    background-color: rgba(0, 0, 0, 0.17);
+  }
+
   ul.topnav li.li {
     display: none;
   }
@@ -1116,10 +1222,25 @@
   }
 
   ul.topnav {
-    display: block;
-    margin-top: 14px;
-    margin-left: 35%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: -12px;
+    margin-left: -8%;
     text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  li.li a {
+    color: #ffffffad;
+    background: #91949845;
+    border-radius: 5px;
   }
 
   div.info {
@@ -1129,12 +1250,14 @@
   img.logo {
     width: 92px;
     height: 10px;
-    margin-left: -76.5%;
+
     margin-top: 17px;
   }
 
   a.burger {
-    top: 1px;
+    top: 9px;
+    font-size: 20px;
+    left: 87%;
   }
 
   li.icon {
@@ -1261,6 +1384,19 @@
     margin-top: 0%;
   }
 
+  .artefct {
+    width: 75%;
+    height: 21.5%;
+    margin-top: -256px;
+    margin-left: 12%;
+  }
+
+  p.artefect-text {
+    width: 89%;
+    height: 130%;
+    font-size: 14px;
+  }
+
   div.furniture_absolut {
     font-size: 14px;
     margin-left: 67%;
@@ -1354,6 +1490,13 @@
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
+  }
+
+  .artefct-decor {
+    margin-top: 9%;
+    margin-left: 12%;
+    width: 75%;
+    height: 22%;
   }
 
   div.decor_absolut {
@@ -1587,6 +1730,7 @@
   div.border_about_us {
     display: none;
   }
+
   /* Футер */
 
   p.text_footer {
@@ -1595,6 +1739,7 @@
     margin-top: 18px;
     padding: 0;
   }
+
   img.logo_footer {
     width: 23%;
     height: 48%;
@@ -1603,6 +1748,10 @@
 }
 
 @media (min-width: 0px) and (max-width: 320px) {
+  header.menu {
+    background-color: rgba(0, 0, 0, 0.17);
+  }
+
   ul.topnav li.li {
     display: none;
   }
@@ -1613,10 +1762,26 @@
   }
 
   ul.topnav {
-    display: block;
-    margin-top: 14px;
-    margin-left: 35%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: -12px;
+    margin-left: 48%;
     text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+
+  li.li a {
+    color: #ffffffad;
+    background: #91949845;
+    border-radius: 5px;
   }
 
   div.info {
@@ -1626,12 +1791,14 @@
   img.logo {
     width: 92px;
     height: 10px;
-    margin-left: -76.5%;
+    margin-left: -102.5%;
     margin-top: 17px;
   }
 
   a.burger {
-    top: 1px;
+    top: 9px;
+    font-size: 18px;
+    left: 18px;
   }
 
   li.icon {
@@ -1758,6 +1925,20 @@
     margin-top: 0%;
   }
 
+  .artefct {
+    width: 75%;
+    height: 21.5%;
+    margin-top: -256px;
+    margin-left: 12%;
+  }
+
+  p.artefect-text {
+    width: 89%;
+    height: 130%;
+    font-size: 10px;
+  }
+
+
   div.furniture_absolut {
     font-size: 12px;
     margin-left: 70%;
@@ -1851,6 +2032,13 @@
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
+  }
+
+  .artefct-decor {
+    margin-top: 9%;
+    margin-left: 12%;
+    width: 75%;
+    height: 22%;
   }
 
   div.decor_absolut {
@@ -2084,6 +2272,7 @@
   div.border_about_us {
     display: none;
   }
+
   /* Футер */
 
   p.text_footer {
@@ -2092,9 +2281,11 @@
     margin-top: 18px;
     padding: 0;
   }
+
   img.logo_footer {
     width: 23%;
     height: 48%;
     margin-left: 6%;
   }
+}
 }
