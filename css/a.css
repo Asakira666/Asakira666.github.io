@@ -214,6 +214,16 @@
 
   /* шестой блок */
 
+  .artefct-about {
+    position: absolute;
+    width: 39%;
+    height: 52.5%;
+    margin-top: 16%;
+    margin-left: 12%;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+  }
+
   div.a {
     font-size: 338px;
     margin-top: -17%;
@@ -605,6 +615,16 @@
     margin-top: 31px;
     margin-left: 18.6%;
     margin-bottom: 0;
+  }
+
+  .artefct-about {
+    position: absolute;
+    width: 69%;
+    height: 52.5%;
+    margin-top: 4%;
+    margin-left: 19%;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
   }
 
   div.about_us-first-under-the-block {
@@ -1146,8 +1166,17 @@
     height: 58%;
     margin-top: 48px;
     margin-left: 11.6%;
-
     margin-bottom: 0;
+  }
+
+  .artefct-about {
+    position: absolute;
+    width: 76%;
+    height: 32.5%;
+    margin-top: 10.66%;
+    margin-left: 12%;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
   }
 
   div.about_us-first-under-the-block {
@@ -1683,8 +1712,17 @@
     height: 52%;
     margin-top: 23px;
     margin-left: 11.6%;
-
     margin-bottom: 0;
+  }
+
+  .artefct-about {
+    position: absolute;
+    width: 76%;
+    height: 23.5%;
+    margin-top: 6%;
+    margin-left: 12%;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
   }
 
   div.about_us-first-under-the-block {
@@ -2225,8 +2263,17 @@
     height: 52%;
     margin-top: 23px;
     margin-left: 11.6%;
-
     margin-bottom: 0;
+  }
+
+  .artefct-about {
+    position: absolute;
+    width: 76%;
+    height: 21.5%;
+    margin-top: 8%;
+    margin-left: 12%;
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
   }
 
   div.about_us-first-under-the-block {
